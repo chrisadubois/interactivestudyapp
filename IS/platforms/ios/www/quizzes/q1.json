@@ -1,0 +1,21 @@
+{
+  "introduction":"This quiz will be testing on the LCO documentation.",
+  "questions":[
+    {"question":"What are the 5 elements in the Life Cycle Objectives (LCO)?",
+      "answers":["Operational concept, System requirements, System and Software Architecture, Life Cycle Plan, and Feasibility Rationale","Waterfall, Fix and Code, Design to Schedule, Agile, and Spiral","Requirement analysis/ specification, (High level) Architectural Design, Detailed Design, Coding and Debugging, System Testing and Maintenance","Operational Concept,Fix and Code, Feasibility Rationale, Detailed Design and Life Cycle Plan."],
+      "correct":0},
+    {"question":"What is the Operational Concept?",
+      "answers":["Conceptual integrity and compatability","High-level technical project description","Essential features of the system","Top-level system objectives and scope"],
+      "correct":3},
+    {"question":"What do the System Requirements include?",
+      "answers":["Top-level system objectives and scope","Essential features of the system","High-level technical project description","Conceptual integrity and compatability"],
+      "correct":1},
+    {"question":"What is the System and Software Architecture?",
+      "answers":["Top-level system objectives and scope","Essential features of the system","High-level technical project description","Conceptual integrity and compatability"],
+      "correct":2},
+    {"question":"What is Feasibility Rational?",
+      "answers":["Conceptual integrity and compatability","Top-level system objectives and scope","Essential features of the system","High-level technical project description"],
+      "correct":0}
+  ]
+}
+

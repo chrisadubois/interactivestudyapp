@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyApp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+<div data-role="page" class ="" id="mainPage">
+    <div data-role="header" class="">
+        <h1>StudyApp</h1>
+    </div>
+    <p>
+        Introduction:
+        This App is meant to help you study
+    </p>
+    <div data-role="content" class="">
+        <ul data-role="listview">
+            <li data-role="collapsible" data-collapsed-icon="false" data-inset="true">
+                <h2>Subjects</h2>
+                <ul data-role="listview">
+                    <li data-role="collapsible" data-collapsed-icon="false" data-expanded-icon="false" data-inset="true">
+                        <h2>Computer Science</h2>
+                        <ul data-role="listview">
+                            <li><a href="quizzes/arrays.html" class="ui-btn cntrList">Arrays</a></li>
+                            <li><a href="quizzes/bigo.html" class="ui-btn cntrList">Big O</a></li>
+                            <li><a href="quizzes/bst.html" class ="ui-btn cntrList">Binary Search Trees</a></li>
+                            <li><a href="quizzes/ll.html" class ="ui-btn cntrList">Linked List</a></li>
+                        </ul>
+                    </li>
+                    <li data-role="collapsible" data-collapsed-icon="false" data-expanded-icon="false" data-inset="true">
+                        <h2>Software Engineering</h2>
+                        <ul data-role="listview">
+                            <li><a href="quizzes/sdlcquiz.html" class="ui-btn cntrList">Software Development Lifecycles</a></li>
+                            <li><a href = "quizzes/lca.html" class="ui-btn cntrList">LCA</a></li>
+                            <li><a href = "quizzes/architecturalstyles.html" class="ui-btn cntrList">Architectural Styles</a></li>
+                            <li><a href = "quizzes/usecases.html" class="ui-btn cntrList">Use Cases and User Stories</a></li>
+                        </ul>
+                    </li>
+                    <li data-role="collapsible" data-collapsed-icon="false" data-expanded-icon="false"  data-inset="true">
+                        <h2>Mathematics</h2>
+                        <ul data-role="listview">
+                            <li><a href="quizzes/proplogic.html" class="ui-btn cntrList">Propositional Logic</a></li>
+                            <li><a href="quizzes/quantifiers.html" class="ui-btn cntrList">Quantifiers</a></li>
+                            <li><a href="quizzes/poly.html" class="ui-btn cntrList">Polynomials</a></li>
+                            <li><a href="quizzes/deriv.html" class="ui-btn cntrList">Derivatives</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <a href ="#resourcesPage" class="ui-btn">References</a>
+    </div>
+    <div data-role="footer" class="">
+        <h7>Authors: Chris DuBois, Marc Fieser, Kalee Flenniken, Robert Stachofsky, Niki Tran, Bonnie Yip</h7>
+    </div>
+</div>
+
+
+<div data-role="page" class="" id="resourcesPage" data-add-back-btn="true" >
+    <div data-role="header" class="">
+        <a href="#mainPage" class="ui-btn ui-btn-icon-left">Main Page</a>
+        <h1>InteractiveStudy - Resources</h1>
+    </div>
+    <div data-role="content" class="">
+        <p class ="resources">McConnell, Steve. Rapid development: taming wild software schedules. " O'Reilly Media, Inc.", 2010.</p>
+        <p class ="resources">Razmov, Valentin. CSS 360 Software Engineering. " University of Washington Bothell.", Spring 2015</p>
+        <p class="resources">Savitch, Walter. Absolute Java. Addison-Wesley Publishing Company, 2009.</p>
+        <p class="resources">Carrano, Frank M., and Janet J. Prichard. Data abstraction & problem solving with C++. Pearson Education Limited, 2013.</p>
+        <p class="resources">Rosen, Kenneth. Discrete Mathematics and Its Applications 7th edition. McGraw-Hill, 2011.</p>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/quiz.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
+</body>
+</html>

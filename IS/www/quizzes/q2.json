@@ -1,0 +1,20 @@
+{
+  "introduction":"This quiz tests you about Arrays",
+  "questions":[
+    {"question":"What do you call the 'i' in array[i]?",
+      "answers":["Array Number","Array Shape","Array Index","Array eye"],
+      "correct":2},
+    {"question":"How would you represent the third element of an array named A?",
+      "answers":["A[2]","A[3]","A(2)","A{3}"],
+      "correct":0},
+    {"question":"How would you access the last element of A, if A is initialized by: int A[10];",
+      "answers":["A[10]","A[9]","A[11]","None of the Above"],
+      "correct":1},
+    {"question":"Which of the following is a multidimensional array?",
+      "answers":["int a[3][3]","string b[4]","double c[6]","None of the Above"],
+      "correct":0},
+    {"question":"Which of the following is not a use of an array?",
+      "answers":["Queues","Hash Tables","Strings","Char"],
+      "correct":3}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "introduction":"This quiz will be testing on the LCA documentation.",
+  "questions":[
+    {"question":"What is a test plan?",
+      "answers":["A plan to test how the team works together","How you plan to test if you are using the correct target audience","How you plan to test your product in a disciplined way","How you write the development plan"],
+      "correct":2},
+    {"question":"What does the system requirements define?",
+      "answers":["3rd party resources","Target audience and environment","Biggest risks and assumptions","All in-scope features and non-functional requirements"],
+      "correct":3},
+    {"question":"During test planning using the SFDPO Methodology, what does data define?",
+      "answers":["How the product will be used","What the product is","The data","What the product depends on"],
+      "correct":1},
+    {"question":"During test planning using the SFDPO Methodology, what does data define?",
+      "answers":["The kinds of input the product processes","How the product will be used","What the product does","The 3rd party components"],
+      "correct":0},
+    {"question":"What does the operational concept define?",
+      "answers":["Platforms","Risks and assumptions","Teammates� roles","The target audience and the major stakeholders"],
+      "correct":3}
+  ]
+}

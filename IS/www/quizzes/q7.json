@@ -1,0 +1,23 @@
+{
+  "introduction":"This quiz will be testing on Big O",
+  "questions":[
+    {"question":"Big-O is unimportant when writing code.",
+      "answers":["True","False"],
+      "correct":1},
+    {"question":"What is the cost of searching for a value in an with binary search array?",
+      "answers":["O(logn)","O(1)","O(n)","O(nlogn)"],
+      "correct":0},
+    {"question":"Is it possible to search a linked list in constant time?",
+      "answers":["No","Yes"],
+      "correct":0},
+    {"question":"The Big-O of bubble sort is O(nlogn).",
+      "answers":["True","False"],
+      "correct":1},
+    {"question":"The Big-O of using find in a linked list is O(n)",
+      "answers":["True","False"],
+      "correct":0}
+  ]
+}
+
+
+

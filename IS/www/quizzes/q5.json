@@ -1,0 +1,21 @@
+{
+  "introduction":"This quiz will be testing on Use Cases and User Stories",
+  "questions":[
+    {"question":"Use cases are not very helpful in software design.",
+      "answers":["True","False"],
+      "correct":1},
+    {"question":"What question is not considered in a Use Case?",
+      "answers":["Who are the actors?","What are the actors doing?","How do they react?","How do we handle the situation?"],
+      "correct":2},
+    {"question":"What does MSS stand for?",
+      "answers":["Main success scenario","Missleading success scenario","Misunderstanding success situation","Main situational success"],
+      "correct":0},
+    {"question":"Multiple Use Cases can be considered for all software projects.",
+      "answers":["True","False"],
+      "correct":0},
+    {"question":"Use Cases are often paired with a diagram.",
+      "answers":["True","False"],
+      "correct":0}
+  ]
+}
+

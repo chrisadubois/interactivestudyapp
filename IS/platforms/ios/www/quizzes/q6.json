@@ -1,0 +1,24 @@
+{
+  "introduction":"This quiz will be testing on Propositional Logic",
+  "questions":[
+    {"question":"Writing a truth table is one way to prove logical statements.",
+      "answers":["True","False"],
+      "correct":0},
+    {"question":"What statement is the converse to p->q>",
+      "answers":["(~q)->(~p)","(~q)->p","q->p","q->(~p)"],
+      "correct":2},
+    {"question":"What statement is the contrapositive of p->q",
+      "answers":["(~q)->(~p)","(~q)->(~p)","q->p","q->(~p)"],
+      "correct":1},
+    {"question":"Using the logical statement: p->q, the english equivalent is 'p is sufficient for q'",
+      "answers":["True","False"],
+      "correct":0},
+    {"question":"p->q is a bi-conditional statement.",
+      "answers":["True","False"],
+      "correct":1}
+  ]
+}
+
+
+
+

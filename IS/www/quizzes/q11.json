@@ -1,0 +1,20 @@
+{
+  "introduction":"This quiz tests you about Linked Lists",
+  "questions":[
+    {"question":"A linear collection of data elements given by means of a pointer is typically called a ________.",
+      "answers":["array","hash table","Graph","Linked List"],
+      "correct":3},
+    {"question":"Each Node contain a minimum of two fields. One field called data to store data and another field is type of _________.",
+      "answers":["Pointer to Node","Pointer to Class","Pointer to Integer","Pointer to Char"],
+      "correct":0},
+    {"question":"Which is not a type of linked list?",
+      "answers":["Singly Linked List","Circular Linked List","Doubly Linked List","Hybrid Linked List"],
+      "correct":3},
+    {"question":"Linked lists are generally considered as an example of _______ type of memory allocation.",
+      "answers":["Static","Compile Time","Dynamic","None of these"],
+      "correct":2},
+    {"question":"A linked list in which the last node of a Linked List points to the first is called a _______.",
+      "answers":["Singly Linked List","Circular Linked List","Doubly Linked List","Hybrid Linked List"],
+      "correct":1}
+  ]
+}

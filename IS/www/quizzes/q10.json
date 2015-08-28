@@ -1,0 +1,20 @@
+{
+  "introduction":"This quiz tests you about Binary Search Trees",
+  "questions":[
+    {"question":"Given a binary search tree, which traversal type would print the values in the nodes in sorted order? ",
+      "answers":["Preorder","Postorder","Inorder","None of the above"],
+      "correct":2},
+    {"question":"Which of the following statements about binary trees is NOT true?",
+      "answers":["Every binary tree has at least one node.","Every non-empty tree has exactly one root node.","Every node has at most two children.","Every non-root node has exactly one parent."],
+      "correct":0},
+    {"question":"What is the first node in a Binary Search Tree called?",
+      "answers":["Base","Root","Trunk","Bottom"],
+      "correct":1},
+    {"question":"Which of the following is NOT a term used with binary search trees?",
+      "answers":["Root","Child","Leaf","Bark"],
+      "correct":3},
+    {"question":"Generally there are three fields in a Binary Search Tree Node, What are they?",
+      "answers":["data, left, right","left, center, right","data, date, destination","next, current, previous"],
+      "correct":0}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "introduction":"This quiz will be testing on the Common Architectural Styles",
+  "questions":[
+    {"question":"What Architecture style is often cloud-based?",
+      "answers":["Layered","Repository/Backboard(Data-Centered)","Data-Flow","Data Abstraction"],
+      "correct":1},
+    {"question":"What Architecture style is often object-oriented?",
+      "answers":["Layered","Distributed","Data-Flow","Data Abstraction"],
+      "correct":3},
+    {"question":"What does MVC stand for with regard to Implicit Invocation(Even-Driven) Architectural styling?",
+      "answers":["Mode-Value-Control","Model-View-Calculation","Model-View-Controller","Model-Viable-Controller"],
+      "correct":2},
+    {"question":"An Architecture helps with evolution.",
+      "answers":["True","False"],
+      "correct":0},
+    {"question":"An Architecture does not help with management.",
+      "answers":["True","False"],
+      "correct":1}
+  ]
+}
+

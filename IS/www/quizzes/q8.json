@@ -1,0 +1,21 @@
+{
+  "introduction":"This quiz will be testing on Quantifiers",
+  "questions":[
+    {"question":"Existential quantifiers and universal quantifiers are the same.",
+      "answers":["True","False"],
+      "correct":1},
+    {"question":"What quantifier is used in the statement: for each value of x?",
+      "answers":["Existential","Universal","Both","Neither"],
+      "correct":0},
+    {"question":"Change x + 2x = 2 into a quantified statement.",
+      "answers":["For all x + 2x, the answer is 2","For each x, x + 2x = 2","There exists an x such that x + 2x is not 2","There exists an x such that x + 2x = 2."],
+      "correct":0},
+    {"question":"The negation of for each is there exists.",
+      "answers":["True","False"],
+      "correct":0},
+    {"question":"The negation of there exists is there does not exist",
+      "answers":["True","False"],
+      "correct":1}
+  ]
+}
+
